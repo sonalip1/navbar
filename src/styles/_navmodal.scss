@@ -1,0 +1,76 @@
+.modal-header{
+    border-bottom:0px !important;
+    color: $red !important;
+    padding-bottom:0px !important;
+}
+
+.modal-title{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    letter-spacing: .025em !important;
+    color: $title_color !important;
+    text-transform: uppercase;
+    margin: 10px 0 0 16px !important;
+}
+
+.navbar-toggler-icon{
+    float:right !important;
+    color:$white;
+}
+
+.labelPayment{
+    @include label(18px, $blue);
+}
+.labelAtlas{
+    @include label(18px, $orange);
+}
+.labelBill{
+    @include label(18px, $green);
+}
+.labelConnect{
+    @include label(18px, $purple);
+}
+.labelIssue{
+    @include label(18px, $teal);
+}
+.labelSigma{
+    @include label(18px, $blue);
+}
+.labelTerminal{
+    @include label(18px, $teal);
+}
+.labelRadar{
+    @include label(18px, $blue);
+}
+
+.iconPayment, .iconAtlas, .iconBill, .iconRadar, .iconConnect, .iconIssue, .iconSigma, .iconTerminal{
+    position:relative; 
+}
+.iconPayment:before{
+    @include iconType($aicon8, 12px);
+}
+.iconAtlas:before{
+    @include iconType($aicon9, 12px);
+}
+.iconBill:before{
+    @include iconType($aicon10, 12px);
+}
+.iconRadar:before{
+    @include iconType($aicon11, 12px);
+}
+.iconConnect:before{
+    @include iconType($aicon12, 12px);
+}
+.iconIssue:before{
+    @include iconType($aicon13, 12px);
+}
+.iconSigma:before{
+    @include iconType($aicon14, 12px);
+}
+.iconTerminal:before{
+    @include iconType($aicon15, 12px);
+}
+.fa.fa-navicon {
+    color:white;
+    font-size:35px;
+}
