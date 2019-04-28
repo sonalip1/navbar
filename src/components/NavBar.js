@@ -12,7 +12,7 @@ class NavBar extends Component{
         this.renderMenuItems = this.renderMenuItems.bind(this);
         this.handleWindowSize = this.handleWindowSize.bind(this);
         this.state = {
-            responseData:{  "product": [    {      "title": "PAYMENTS",      "sub-title": "A complete payments platform engineered for growth."    },    {      "title": "BILLING",      "sub-title": "Build and scale your recurring business model."    },    {      "title": "CONNECT",      "sub-title": "Everything platforms need to get sellers paid."    }  ],  "developers": [    {      "title": "DOCUMENTATION",      "sub-title": "Start integrating Stripe’s products and tools."    },    {      "title": "FULL API REFERENCE",      "sub-title": "Build and scale your recurring business model."    },    {      "title": "API STATUS",      "sub-title": "Everything platforms need to get sellers paid."    }  ],  "company": [    {      "title": "ABOUT STRIPE",      "sub-title": "A complete payments platform engineered for growth."    }  ]}
+            responseData:{}
         }
     }
 

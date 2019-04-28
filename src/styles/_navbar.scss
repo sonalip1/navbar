@@ -15,10 +15,12 @@
 }
 
 .nav-link{
-    font-weight: 200 !important;
+    font-weight: 300 !important;
     color: $white !important;
-    font-family: $font_sans_seriff !important;   
+    font-family: arial !important;   
     cursor: default;
+    width:130px !important;
+    letter-spacing: 0.05em;
 }
 .nav-link:hover{
     color: hsla(0,0%,100%,.5) !important;
